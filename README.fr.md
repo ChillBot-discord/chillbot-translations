@@ -1,10 +1,17 @@
+### Lisez cette lecture dans une autre langue:
+
+-   [Anglais](README.md)
+-   [Français](README.fr.md)
+-   [German](README.de.md)
+-   [Espagnol](README.es.md)
+
 # Fichiers de traduction pour chillbot
 
 Ce référentiel héberge les fichiers de traduction pour le bot Discord**Refroidissement**. Ces fichiers permettent à Chillbot d'offrir ses fonctionnalités en plusieurs langues et de permettre à la communauté de contribuer à améliorer les traductions.
 
-## Structure de fichiers
+## File Structure
 
-Les fichiers de traduction sont dans**Json**format et organisé par code linguistique (par exemple,`en-US.json`,`fr-FR.json`).
+Translation files are in **Json**format et organisé par code linguistique (par exemple,`en-US.json`,`fr-FR.json`).
 Chaque fichier reflète la hiérarchie des modules, commandes et messages du bot.
 
 **Exemple de structure:**
@@ -59,7 +66,7 @@ Chaque fichier reflète la hiérarchie des modules, commandes et messages du bot
 ## Soumettre une traduction
 
 1.  **Fourchette**ce référentiel.
-2.  **Créer une branche** for your contribution.
+2.  **Créer une branche**pour votre contribution.
 3.  **Modifier ou ajouter**le fichier de traduction pertinent.
 4.  **Ouvrir une demande de traction**avec une description claire de vos modifications.
 
