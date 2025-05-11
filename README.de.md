@@ -1,3 +1,10 @@
+### Lesen Sie diese Readme in einer anderen Sprache:
+
+-   [Englisch](README.md)
+-   [Französisch](README.fr.md)
+-   [Deutsch](README.de.md)
+-   [Spanisch](README.es.md)
+
 # Übersetzungsdateien für Chillbot
 
 Dieses Repository hostet die Übersetzungsdateien für den Discord Bot**Chillbot**. Diese Dateien ermöglichen es Chillbot, seine Funktionen in mehreren Sprachen anzubieten und der Community zur Verbesserung der Übersetzungen beizutragen.
@@ -46,7 +53,7 @@ Jede Datei spiegelt die Hierarchie der Module, Befehle und Nachrichten des Bots 
 ## Wie man beiträgt
 
 1.  **Wählen oder erstellen Sie die Sprachdatei:**Wenn die Datei für Ihre Sprache nicht vorhanden ist, kopieren Sie eine vorhandene Datei (z. B..`en-US.json`) und benennen es mit dem entsprechenden Sprachcode um (z. B.,,`fr-FR.json`).
-2.  **Übersetzen Sie die Saiten:**Ersetzen Sie jeden Wert durch die richtige Übersetzung. Achten Sie darauf, Variablen zu behalten (`%s`,`%d`usw.) in ihren ursprünglichen Positionen.
+2.  **Übersetzen Sie die Saiten:**Ersetzen Sie jeden Wert durch die richtige Übersetzung. Achten Sie darauf, Variablen zu behalten (`%s`,`%d`, etc.) in their original positions.
 3.  **Behalten Sie die Struktur bei:**Ändern Sie die Schlüsselstruktur nicht. Fehlende oder umbenannte Schlüssel können während der Integration Fehler verursachen.
 4.  **Validieren Sie die Syntax:**Verwenden Sie einen JSON -Validator, um Formatierungsfehler zu vermeiden.
 
