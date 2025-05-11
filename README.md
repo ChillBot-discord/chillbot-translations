@@ -1,3 +1,10 @@
+### Read this readme in another language:
+- [English](README.md)
+- [French](README.fr.md)
+- [German](README.de.md)
+- [Spanish](README.es.md)
+
+
 # Translation Files for ChillBot
 
 This repository hosts the translation files for the Discord bot **ChillBot**. These files enable ChillBot to offer its features in multiple languages and allow the community to contribute to improving translations.
