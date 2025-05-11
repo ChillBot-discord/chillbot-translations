@@ -1,0 +1,1600 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "pro": {
+      "type": "object",
+      "properties": {
+        "ftnl": {
+          "type": "object",
+          "properties": {
+            "chillbot": {
+              "type": "object",
+              "properties": {
+                "core": {
+                  "type": "object",
+                  "properties": {
+                    "utility": {
+                      "type": "object",
+                      "properties": {
+                        "commands": {
+                          "type": "object",
+                          "properties": {
+                            "list": {
+                              "type": "object",
+                              "properties": {
+                                "slash": {
+                                  "type": "object",
+                                  "properties": {
+                                    "publics": {
+                                      "type": "object",
+                                      "properties": {
+                                        "music": {
+                                          "type": "object",
+                                          "properties": {
+                                            "PlayCmd": {
+                                              "type": "object",
+                                              "properties": {
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "success": {
+                                                      "type": "string"
+                                                    },
+                                                    "noPrime": {
+                                                      "type": "string"
+                                                    },
+                                                    "noPerms": {
+                                                      "type": "string"
+                                                    },
+                                                    "notInVoice": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "success",
+                                                    "noPrime",
+                                                    "noPerms",
+                                                    "notInVoice"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "action"
+                                              ]
+                                            },
+                                            "StopCmd": {
+                                              "type": "object",
+                                              "properties": {
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "successfulDisconected": {
+                                                      "type": "string"
+                                                    },
+                                                    "NoPlayer": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "successfulDisconected",
+                                                    "NoPlayer"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "action"
+                                              ]
+                                            },
+                                            "CollectionPagination": {
+                                              "type": "object",
+                                              "properties": {
+                                                "generateEmbed": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "embedTitle": {
+                                                      "type": "string"
+                                                    },
+                                                    "embedDescription": {
+                                                      "type": "string"
+                                                    },
+                                                    "fieldsValue": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "embedTitle",
+                                                    "embedDescription",
+                                                    "fieldsValue"
+                                                  ]
+                                                },
+                                                "generateComponents": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "navigationButtonLabel": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "navigationButtonLabel"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "generateEmbed",
+                                                "generateComponents"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "PlayCmd",
+                                            "StopCmd",
+                                            "CollectionPagination"
+                                          ]
+                                        },
+                                        "utils": {
+                                          "type": "object",
+                                          "properties": {
+                                            "Stats": {
+                                              "type": "object",
+                                              "properties": {
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "embedTitle": {
+                                                      "type": "string"
+                                                    },
+                                                    "embedDescription": {
+                                                      "type": "string"
+                                                    },
+                                                    "embedFooter": {
+                                                      "type": "string"
+                                                    },
+                                                    "supportButtonLabel": {
+                                                      "type": "string"
+                                                    },
+                                                    "docsButtonLabel": {
+                                                      "type": "string"
+                                                    },
+                                                    "voteButtonLabel": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "embedTitle",
+                                                    "embedDescription",
+                                                    "embedFooter",
+                                                    "supportButtonLabel",
+                                                    "docsButtonLabel",
+                                                    "voteButtonLabel"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "action"
+                                              ]
+                                            },
+                                            "Help": {
+                                              "type": "object",
+                                              "properties": {
+                                                "helpMessage": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "embedDescription": {
+                                                      "type": "string"
+                                                    },
+                                                    "category-music": {
+                                                      "type": "string"
+                                                    },
+                                                    "category-prime": {
+                                                      "type": "string"
+                                                    },
+                                                    "category-utils": {
+                                                      "type": "string"
+                                                    },
+                                                    "partnerFieldName": {
+                                                      "type": "string"
+                                                    },
+                                                    "partnerFieldValue": {
+                                                      "type": "string"
+                                                    },
+                                                    "supportFieldName": {
+                                                      "type": "string"
+                                                    },
+                                                    "supportFieldValue": {
+                                                      "type": "string"
+                                                    },
+                                                    "primeButtonLabel": {
+                                                      "type": "string"
+                                                    },
+                                                    "docButtonLabel": {
+                                                      "type": "string"
+                                                    },
+                                                    "voteButtonLabel": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "embedDescription",
+                                                    "category-music",
+                                                    "category-prime",
+                                                    "category-utils",
+                                                    "partnerFieldName",
+                                                    "partnerFieldValue",
+                                                    "supportFieldName",
+                                                    "supportFieldValue",
+                                                    "primeButtonLabel",
+                                                    "docButtonLabel",
+                                                    "voteButtonLabel"
+                                                  ]
+                                                },
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "commandHelpDesc": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "commandHelpDesc"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "helpMessage",
+                                                "action"
+                                              ]
+                                            },
+                                            "Ping": {
+                                              "type": "object",
+                                              "properties": {
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "pingResult": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "pingResult"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "action"
+                                              ]
+                                            },
+                                            "Credits": {
+                                              "type": "object",
+                                              "properties": {
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "embedTitle": {
+                                                      "type": "string"
+                                                    },
+                                                    "embedDescription": {
+                                                      "type": "string"
+                                                    },
+                                                    "embedFooter": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "embedTitle",
+                                                    "embedDescription",
+                                                    "embedFooter"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "action"
+                                              ]
+                                            },
+                                            "Support": {
+                                              "type": "object",
+                                              "properties": {
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "supportMessage": {
+                                                      "type": "string"
+                                                    },
+                                                    "supportButtonLabel": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "supportMessage",
+                                                    "supportButtonLabel"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "action"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "Stats",
+                                            "Help",
+                                            "Ping",
+                                            "Credits",
+                                            "Support"
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "music",
+                                        "utils"
+                                      ]
+                                    },
+                                    "premium": {
+                                      "type": "object",
+                                      "properties": {
+                                        "StationCmd": {
+                                          "type": "object",
+                                          "properties": {
+                                            "action": {
+                                              "type": "object",
+                                              "properties": {
+                                                "currentStation": {
+                                                  "type": "string"
+                                                },
+                                                "stationChange": {
+                                                  "type": "string"
+                                                },
+                                                "stationNotFound": {
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "currentStation",
+                                                "stationChange",
+                                                "stationNotFound"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "action"
+                                          ]
+                                        },
+                                        "PlayerMenu": {
+                                          "type": "object",
+                                          "properties": {
+                                            "action": {
+                                              "type": "object",
+                                              "properties": {
+                                                "playerMenuReply": {
+                                                  "type": "string"
+                                                },
+                                                "enabled": {
+                                                  "type": "string"
+                                                },
+                                                "noPerm": {
+                                                  "type": "string"
+                                                },
+                                                "disabled": {
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "playerMenuReply",
+                                                "enabled",
+                                                "noPerm",
+                                                "disabled"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "action"
+                                          ]
+                                        },
+                                        "TwentySevenCmd": {
+                                          "type": "object",
+                                          "properties": {
+                                            "action": {
+                                              "type": "object",
+                                              "properties": {
+                                                "enable": {
+                                                  "type": "string"
+                                                },
+                                                "disable": {
+                                                  "type": "string"
+                                                },
+                                                "botRemain": {
+                                                  "type": "string"
+                                                },
+                                                "botLeave": {
+                                                  "type": "string"
+                                                },
+                                                "embedReplyDesc": {
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "enable",
+                                                "disable",
+                                                "botRemain",
+                                                "botLeave",
+                                                "embedReplyDesc"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "action"
+                                          ]
+                                        },
+                                        "NowPlaying": {
+                                          "type": "object",
+                                          "properties": {
+                                            "action": {
+                                              "type": "object",
+                                              "properties": {
+                                                "noPlayer": {
+                                                  "type": "string"
+                                                },
+                                                "embedTitle": {
+                                                  "type": "string"
+                                                },
+                                                "TitleFieldName": {
+                                                  "type": "string"
+                                                },
+                                                "AuthorFieldName": {
+                                                  "type": "string"
+                                                },
+                                                "DurationFieldName": {
+                                                  "type": "string"
+                                                },
+                                                "ProgressFieldName": {
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "noPlayer",
+                                                "embedTitle",
+                                                "TitleFieldName",
+                                                "AuthorFieldName",
+                                                "DurationFieldName",
+                                                "ProgressFieldName"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "action"
+                                          ]
+                                        },
+                                        "djRole": {
+                                          "type": "object",
+                                          "properties": {
+                                            "Set": {
+                                              "type": "object",
+                                              "properties": {
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "successSet": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "successSet"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "action"
+                                              ]
+                                            },
+                                            "Info": {
+                                              "type": "object",
+                                              "properties": {
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "sendRole": {
+                                                      "type": "string"
+                                                    },
+                                                    "noDjRole": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "sendRole",
+                                                    "noDjRole"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "action"
+                                              ]
+                                            },
+                                            "Remove": {
+                                              "type": "object",
+                                              "properties": {
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "successRemove": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "successRemove"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "action"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "Set",
+                                            "Info",
+                                            "Remove"
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "StationCmd",
+                                        "PlayerMenu",
+                                        "TwentySevenCmd",
+                                        "NowPlaying",
+                                        "djRole"
+                                      ]
+                                    },
+                                    "all": {
+                                      "type": "object",
+                                      "properties": {
+                                        "premium": {
+                                          "type": "object",
+                                          "properties": {
+                                            "Info": {
+                                              "type": "object",
+                                              "properties": {
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "embedTitle": {
+                                                      "type": "string"
+                                                    },
+                                                    "embedDescription": {
+                                                      "type": "string"
+                                                    },
+                                                    "noPrimeGuild": {
+                                                      "type": "string"
+                                                    },
+                                                    "embedInfoField": {
+                                                      "type": "string"
+                                                    },
+                                                    "embedInfoFieldValue": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "embedTitle",
+                                                    "embedDescription",
+                                                    "noPrimeGuild",
+                                                    "embedInfoField",
+                                                    "embedInfoFieldValue"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "action"
+                                              ]
+                                            },
+                                            "AddGuild": {
+                                              "type": "object",
+                                              "properties": {
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "needMorePrime": {
+                                                      "type": "string"
+                                                    },
+                                                    "primeEnabled": {
+                                                      "type": "string"
+                                                    },
+                                                    "alreadyPremium": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "needMorePrime",
+                                                    "primeEnabled",
+                                                    "alreadyPremium"
+                                                  ]
+                                                },
+                                                "createMenu": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "PrimeButton": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "PrimeButton"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "action",
+                                                "createMenu"
+                                              ]
+                                            },
+                                            "RemoveGuild": {
+                                              "type": "object",
+                                              "properties": {
+                                                "action": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "premiumDisabled": {
+                                                      "type": "string"
+                                                    },
+                                                    "noPrime": {
+                                                      "type": "string"
+                                                    },
+                                                    "idNotValid": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "premiumDisabled",
+                                                    "noPrime",
+                                                    "idNotValid"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "action"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "Info",
+                                            "AddGuild",
+                                            "RemoveGuild"
+                                          ]
+                                        },
+                                        "Vote": {
+                                          "type": "object",
+                                          "properties": {
+                                            "action": {
+                                              "type": "object",
+                                              "properties": {
+                                                "embedName": {
+                                                  "type": "string"
+                                                },
+                                                "embedDescription": {
+                                                  "type": "string"
+                                                },
+                                                "consumeButton": {
+                                                  "type": "string"
+                                                },
+                                                "voteButtonLabel": {
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "embedName",
+                                                "embedDescription",
+                                                "consumeButton",
+                                                "voteButtonLabel"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "action"
+                                          ]
+                                        },
+                                        "Lang": {
+                                          "type": "object",
+                                          "properties": {
+                                            "action": {
+                                              "type": "object",
+                                              "properties": {
+                                                "lang_not_available": {
+                                                  "type": "string"
+                                                },
+                                                "lang_set": {
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "lang_not_available",
+                                                "lang_set"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "action"
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "premium",
+                                        "Vote",
+                                        "Lang"
+                                      ]
+                                    }
+                                  },
+                                  "required": [
+                                    "publics",
+                                    "premium",
+                                    "all"
+                                  ]
+                                },
+                                "buttons": {
+                                  "type": "object",
+                                  "properties": {
+                                    "LikeButton": {
+                                      "type": "object",
+                                      "properties": {
+                                        "action": {
+                                          "type": "object",
+                                          "properties": {
+                                            "AddedToFavorite": {
+                                              "type": "string"
+                                            },
+                                            "alreadyLiked": {
+                                              "type": "string"
+                                            },
+                                            "contactDev": {
+                                              "type": "string"
+                                            }
+                                          },
+                                          "required": [
+                                            "AddedToFavorite",
+                                            "alreadyLiked",
+                                            "contactDev"
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "action"
+                                      ]
+                                    },
+                                    "UnlikeButton": {
+                                      "type": "object",
+                                      "properties": {
+                                        "action": {
+                                          "type": "object",
+                                          "properties": {
+                                            "likeRemoved": {
+                                              "type": "string"
+                                            }
+                                          },
+                                          "required": [
+                                            "likeRemoved"
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "action"
+                                      ]
+                                    }
+                                  },
+                                  "required": [
+                                    "LikeButton",
+                                    "UnlikeButton"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "slash",
+                                "buttons"
+                              ]
+                            },
+                            "CommandManager": {
+                              "type": "object",
+                              "properties": {
+                                "handle": {
+                                  "type": "object",
+                                  "properties": {
+                                    "checkCmd": {
+                                      "type": "object",
+                                      "properties": {
+                                        "limit_reached": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "limit_reached"
+                                      ]
+                                    }
+                                  },
+                                  "required": [
+                                    "checkCmd"
+                                  ]
+                                },
+                                "checkPrime": {
+                                  "type": "object",
+                                  "properties": {
+                                    "replyNoPrime": {
+                                      "type": "string"
+                                    },
+                                    "PrimeButton": {
+                                      "type": "string"
+                                    },
+                                    "VoteButton": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "replyNoPrime",
+                                    "PrimeButton",
+                                    "VoteButton"
+                                  ]
+                                },
+                                "action": {
+                                  "type": "object",
+                                  "properties": {
+                                    "noDjRole": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "noDjRole"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "handle",
+                                "checkPrime",
+                                "action"
+                              ]
+                            },
+                            "Companion": {
+                              "type": "object",
+                              "properties": {
+                                "commands": {
+                                  "type": "object",
+                                  "properties": {
+                                    "play": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    },
+                                    "collection": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    },
+                                    "my-lang": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "options": {
+                                          "type": "object",
+                                          "properties": {
+                                            "lang": {
+                                              "type": "object",
+                                              "properties": {
+                                                "name": {
+                                                  "type": "string"
+                                                },
+                                                "description": {
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "name",
+                                                "description"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "lang"
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description",
+                                        "options"
+                                      ]
+                                    },
+                                    "player-menu": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "options": {
+                                          "type": "object",
+                                          "properties": {
+                                            "enable": {
+                                              "type": "object",
+                                              "properties": {
+                                                "name": {
+                                                  "type": "string"
+                                                },
+                                                "description": {
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "name",
+                                                "description"
+                                              ]
+                                            },
+                                            "channel": {
+                                              "type": "object",
+                                              "properties": {
+                                                "name": {
+                                                  "type": "string"
+                                                },
+                                                "description": {
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "name",
+                                                "description"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "enable",
+                                            "channel"
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description",
+                                        "options"
+                                      ]
+                                    },
+                                    "credit": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    },
+                                    "ping": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    },
+                                    "support": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    },
+                                    "station": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "options": {
+                                          "type": "object",
+                                          "properties": {
+                                            "station": {
+                                              "type": "object",
+                                              "properties": {
+                                                "name": {
+                                                  "type": "string"
+                                                },
+                                                "description": {
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "name",
+                                                "description"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "station"
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description",
+                                        "options"
+                                      ]
+                                    },
+                                    "24-7": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    },
+                                    "stats": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    },
+                                    "premium": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "info": {
+                                          "type": "object",
+                                          "properties": {
+                                            "name": {
+                                              "type": "string"
+                                            },
+                                            "description": {
+                                              "type": "string"
+                                            }
+                                          },
+                                          "required": [
+                                            "name",
+                                            "description"
+                                          ]
+                                        },
+                                        "add-server": {
+                                          "type": "object",
+                                          "properties": {
+                                            "name": {
+                                              "type": "string"
+                                            },
+                                            "description": {
+                                              "type": "string"
+                                            }
+                                          },
+                                          "required": [
+                                            "name",
+                                            "description"
+                                          ]
+                                        },
+                                        "remove-server": {
+                                          "type": "object",
+                                          "properties": {
+                                            "name": {
+                                              "type": "string"
+                                            },
+                                            "description": {
+                                              "type": "string"
+                                            },
+                                            "options": {
+                                              "type": "object",
+                                              "properties": {
+                                                "guild": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "name": {
+                                                      "type": "string"
+                                                    },
+                                                    "description": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "name",
+                                                    "description"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "guild"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "name",
+                                            "description",
+                                            "options"
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description",
+                                        "info",
+                                        "add-server",
+                                        "remove-server"
+                                      ]
+                                    },
+                                    "stop": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    },
+                                    "now-playing": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    },
+                                    "vote": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    },
+                                    "dj-role": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "remove": {
+                                          "type": "object",
+                                          "properties": {
+                                            "name": {
+                                              "type": "string"
+                                            },
+                                            "description": {
+                                              "type": "string"
+                                            }
+                                          },
+                                          "required": [
+                                            "name",
+                                            "description"
+                                          ]
+                                        },
+                                        "set": {
+                                          "type": "object",
+                                          "properties": {
+                                            "name": {
+                                              "type": "string"
+                                            },
+                                            "description": {
+                                              "type": "string"
+                                            },
+                                            "options": {
+                                              "type": "object",
+                                              "properties": {
+                                                "role": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "name": {
+                                                      "type": "string"
+                                                    },
+                                                    "description": {
+                                                      "type": "string"
+                                                    }
+                                                  },
+                                                  "required": [
+                                                    "name",
+                                                    "description"
+                                                  ]
+                                                }
+                                              },
+                                              "required": [
+                                                "role"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "name",
+                                            "description",
+                                            "options"
+                                          ]
+                                        },
+                                        "info": {
+                                          "type": "object",
+                                          "properties": {
+                                            "name": {
+                                              "type": "string"
+                                            },
+                                            "description": {
+                                              "type": "string"
+                                            }
+                                          },
+                                          "required": [
+                                            "name",
+                                            "description"
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description",
+                                        "remove",
+                                        "set",
+                                        "info"
+                                      ]
+                                    },
+                                    "help": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "options": {
+                                          "type": "object",
+                                          "properties": {
+                                            "command": {
+                                              "type": "object",
+                                              "properties": {
+                                                "name": {
+                                                  "type": "string"
+                                                },
+                                                "description": {
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "name",
+                                                "description"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "command"
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description",
+                                        "options"
+                                      ]
+                                    },
+                                    "print-info": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    },
+                                    "dev-play": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "options": {
+                                          "type": "object",
+                                          "properties": {
+                                            "playlist": {
+                                              "type": "object",
+                                              "properties": {
+                                                "name": {
+                                                  "type": "string"
+                                                },
+                                                "description": {
+                                                  "type": "string"
+                                                }
+                                              },
+                                              "required": [
+                                                "name",
+                                                "description"
+                                              ]
+                                            }
+                                          },
+                                          "required": [
+                                            "playlist"
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description",
+                                        "options"
+                                      ]
+                                    },
+                                    "dev-now-playing": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    },
+                                    "dev-stop": {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "name",
+                                        "description"
+                                      ]
+                                    }
+                                  },
+                                  "required": [
+                                    "play",
+                                    "collection",
+                                    "my-lang",
+                                    "player-menu",
+                                    "credit",
+                                    "ping",
+                                    "support",
+                                    "station",
+                                    "24-7",
+                                    "stats",
+                                    "premium",
+                                    "stop",
+                                    "now-playing",
+                                    "vote",
+                                    "dj-role",
+                                    "help",
+                                    "print-info",
+                                    "dev-play",
+                                    "dev-now-playing",
+                                    "dev-stop"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "commands"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "list",
+                            "CommandManager",
+                            "Companion"
+                          ]
+                        },
+                        "PlayerMenuUtils": {
+                          "type": "object",
+                          "properties": {
+                            "generateEmbed": {
+                              "type": "object",
+                              "properties": {
+                                "noPlaying": {
+                                  "type": "string"
+                                },
+                                "nowPlaying": {
+                                  "type": "string"
+                                },
+                                "embedTitle": {
+                                  "type": "string"
+                                },
+                                "embedDescription": {
+                                  "type": "string"
+                                },
+                                "titleFieldName": {
+                                  "type": "string"
+                                },
+                                "endFieldName": {
+                                  "type": "string"
+                                },
+                                "artistFieldName": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "noPlaying",
+                                "nowPlaying",
+                                "embedTitle",
+                                "embedDescription",
+                                "titleFieldName",
+                                "endFieldName",
+                                "artistFieldName"
+                              ]
+                            },
+                            "generateNonPrimeEmbed": {
+                              "type": "object",
+                              "properties": {
+                                "embedTitle": {
+                                  "type": "string"
+                                },
+                                "embedDescription": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "embedTitle",
+                                "embedDescription"
+                              ]
+                            },
+                            "updateMenu": {
+                              "type": "object",
+                              "properties": {
+                                "PrimeButton": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "PrimeButton"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "generateEmbed",
+                            "generateNonPrimeEmbed",
+                            "updateMenu"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "commands",
+                        "PlayerMenuUtils"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "utility"
+                  ]
+                }
+              },
+              "required": [
+                "core"
+              ]
+            }
+          },
+          "required": [
+            "chillbot"
+          ]
+        }
+      },
+      "required": [
+        "ftnl"
+      ]
+    },
+    "config": {
+      "type": "object",
+      "properties": {
+        "lang": {
+          "type": "object",
+          "properties": {
+            "names": {
+              "type": "object",
+              "properties": {
+                "en-US": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "en-US"
+              ]
+            }
+          },
+          "required": [
+            "names"
+          ]
+        }
+      },
+      "required": [
+        "lang"
+      ]
+    }
+  },
+  "required": [
+    "pro",
+    "config"
+  ]
+}
