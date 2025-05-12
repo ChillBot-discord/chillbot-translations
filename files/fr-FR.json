@@ -1,0 +1,401 @@
+{
+  "pro": {
+    "ftnl": {
+      "chillbot": {
+        "core": {
+          "utility": {
+            "commands": {
+              "list": {
+                "slash": {
+                  "publics": {
+                    "music": {
+                      "PlayCmd": {
+                        "action": {
+                          "success": "🎵 %s, je t'ai rejoint dans %s.",
+                          "noPrime": "\n\u003ca:cdEmote:801119395182411816\u003e Tu veux écouter de la musique 24/7 ? Vote pour le bot ici.",
+                          "noPerms": "Oups ! Je n'ai pas les permissions de rejoindre ou parler dans le salon où tu te trouves ^^'",
+                          "notInVoice": "Euh... Tu n'est pas connecté à un salon vocal ^^'"
+                        }
+                      },
+                      "StopCmd": {
+                        "action": {
+                          "successfulDisconected": ":octagonal_sign: %s, Pouf ! J'suis parti.",
+                          "NoPlayer": "❌ | **Impossible ! Je ne suis pas connecté à un salon vocal 0.0**"
+                        }
+                      },
+                      "CollectionPagination": {
+                        "generateEmbed": {
+                          "embedTitle": "%s • Bibliothèque",
+                          "embedDescription": "Liste des musiques aimées par %s",
+                          "fieldsValue": "\u003e Artiste: `%s`\n\u003e Durée: `%s`"
+                        },
+                        "generateComponents": {
+                          "navigationButtonLabel": "Menu de navigation"
+                        }
+                      }
+                    },
+                    "utils": {
+                      "Stats": {
+                        "action": {
+                          "embedTitle": "%s • Informations",
+                          "embedDescription": "**__A propos__:**\n\u003e **Auteurs:** Alex, Rednek, Alboom and Happx\n\u003e **Développeur:** ocelus_ftnl\n\u003e **Ressources de développement:** [%s](https://github.com/discord-jda/JDA)\n\u003e **Temps de fonctionnement:** %s\n**__Statistiques__:**\n\u003e **Serveurs:** %s\n\u003e **Fragments:** %s\n\u003e **Mémoire:** %s GB",
+                          "embedFooter": "Merci d'utiliser ChillBot !",
+                          "supportButtonLabel": "Aide & Support",
+                          "docsButtonLabel": "Documentation",
+                          "voteButtonLabel": "Voter pour Chillbot"
+                        }
+                      },
+                      "Help": {
+                        "helpMessage": {
+                          "embedDescription": "Bienvenue dans le panneau d'aide de %s.\nToutes les commandes disponibles sont affichées ici.",
+                          "category-music": "Musique",
+                          "category-prime": "Premium",
+                          "category-utils": "Utilitaire",
+                          "partnerFieldName": "💠 Partenaires officiels",
+                          "partnerFieldValue": "Ce bot est affilié à **[Chilled Empire](https://www.youtube.com/c/ChilledEmpire)**.",
+                          "supportFieldName": "\u003ca:cdEmote:801119395182411816\u003e Premium / Support",
+                          "supportFieldValue": "Pour avoir accès au bot premium: rejoins notre **[Serveur de support](%s)**.\nSi possible, votez pour le bot sur **[top.gg](%s)**.",
+                          "primeButtonLabel": "ChillBot Premium",
+                          "docButtonLabel": "Documentation",
+                          "voteButtonLabel": "Voter pour Chillbot"
+                        },
+                        "action": {
+                          "commandHelpDesc": "`Nom:` %s\n`Description:` %s"
+                        }
+                      },
+                      "Ping": {
+                        "action": {
+                          "pingResult": "🏓 Pong!\n\u003e Shard `#%s`\n\u003e Gateway: `%sms`, API: `%sms`"
+                        }
+                      },
+                      "Credits": {
+                        "action": {
+                          "embedTitle": " • Crédits",
+                          "embedDescription": "Un bot pour écouter de la musique Lofi Hip Hop en direct 24/7 sur ton serveur discord !\n🎉 **__Crédits__:**\n\u003e Musique provenant de **[Chilled Empire](https://www.youtube.com/c/ChilledEmpire)**.\n\u003e Vous pouvez retrouver la bibliothèque de musiques Lofi **[ici](https://open.spotify.com/playlist/60h4fWWXmJB7t9YjcbNQfa)** et Chill **[ici](https://open.spotify.com/playlist/1O1iuPBP6s5TCMivEc7dn0)**.\n\u003e Tous les crédits reviennent à **[Chilled Empire](https://linktr.ee/chilledempire)** et les artistes respectifs pour leurs musiques.\n\u003e Ce bot est affilié à **[Chilled Empire](https://www.youtube.com/c/ChilledEmpire)**.\n\u003e Remerciements spéciaux à **[Ameily\u0027s creations](https://linktr.ee/ameily_with_an_a)**.",
+                          "embedFooter": "Merci d'utiliser Chillbot!"
+                        }
+                      },
+                      "Support": {
+                        "action": {
+                          "supportMessage": "\u003c:blobthinkingeyes:878656281383170089\u003e Besoin d'aide ? Rejoins notre **serveur discord** en cliquant sur le bouton ci-dessous!",
+                          "supportButtonLabel": "Aide & Support"
+                        }
+                      }
+                    }
+                  },
+                  "premium": {
+                    "StationCmd": {
+                      "action": {
+                        "currentStation": "Vous écoutez actuellement la radio `%s`.",
+                        "stationChange": "Votre radio est désormais `%s`.",
+                        "stationNotFound": "La radio demandée n'a pas été trouvée... Veuillez choisir une radio dans la liste proposée."
+                      }
+                    },
+                    "PlayerMenu": {
+                      "action": {
+                        "playerMenuReply": "Le panneau de contrôle est désormais %s sur le serveur",
+                        "enabled": "activé",
+                        "noPerm": "Je n'ai pas les permissions requises pour afficher le panneau de controle dans le salon demandé.",
+                        "disabled": "désactivé"
+                      }
+                    },
+                    "TwentySevenCmd": {
+                      "action": {
+                        "enable": "activé ✅",
+                        "disable": "désactivé ❌",
+                        "botRemain": "restera dans le salon vocal 24/7.",
+                        "botLeave": "se déconnectera automatiquement lorsqu'il sera le dernier dans le salon vocal.",
+                        "embedReplyDesc": "Le mode 24/7 est désormais `%s`\n\u003e %s %s"
+                      }
+                    },
+                    "NowPlaying": {
+                      "action": {
+                        "noPlayer": "❌ | Impossible, le bot n'est pas connecté à un salon vocal!",
+                        "embedTitle": "Musique en cours - Radio %s",
+                        "TitleFieldName": "Nom",
+                        "AuthorFieldName": "Auteur",
+                        "DurationFieldName": "Durée",
+                        "ProgressFieldName": "Progression"
+                      }
+                    },
+                    "djRole": {
+                      "Set": {
+                        "action": {
+                          "successSet": "Le nouveau role de DJ est `%s`"
+                        }
+                      },
+                      "Info": {
+                        "action": {
+                          "sendRole": "Le role de DJ actuel est %s",
+                          "noDjRole": "`Aucun`"
+                        }
+                      },
+                      "Remove": {
+                        "action": {
+                          "successRemove": "Le role de DJ à été désactivé"
+                        }
+                      }
+                    }
+                  },
+                  "all": {
+                    "premium": {
+                      "Info": {
+                        "action": {
+                          "embedTitle": " • Premium",
+                          "embedDescription": "Vous avez activé le status premium sur les serveurs suivants:\n%s",
+                          "noPrimeGuild": "`Aucun serveur avec le statut premium`",
+                          "embedInfoField": "A propos de votre abonnement",
+                          "embedInfoFieldValue": "`Plan:` %d serveurs\n`Restants:` %d"
+                        }
+                      },
+                      "AddGuild": {
+                        "action": {
+                          "needMorePrime": "Si vous êtes abonné, veuillez passer au niveau superieur pour activer le premium sur plus de serveurs!",
+                          "primeEnabled": "Le status premium à été activé sur ce serveur!",
+                          "alreadyPremium": "Ce serveur possède déjà un status premium!"
+                        },
+                        "createMenu": {
+                          "PrimeButton": "Premium"
+                        }
+                      },
+                      "RemoveGuild": {
+                        "action": {
+                          "premiumDisabled": "Le status premium de ce serveur à été retiré",
+                          "noPrime": "Il semblerait que ce serveur n'est pas de status premium actif",
+                          "idNotValid": "L'identifiant de serveur indiqué ne semble pas valide! \nEtes-vous sûr d'avoir sélectionné un serveur de la liste ?"
+                        }
+                      }
+                    },
+                    "Vote": {
+                      "action": {
+                        "embedName": " • Votes",
+                        "embedDescription": "Vous avez `%d votes`\nVous avez besoin de `%d votes` supplémentaires pour avoir accès à 1 mois de status premium gratuit pour 1 serveurt.\nVous pourrez voter dans: %s",
+                        "consumeButton": "Réclamer 1 mois de status premium",
+                        "voteButtonLabel": "Voter pour ChillBot"
+                      }
+                    },
+                    "Lang": {
+                      "action": {
+                        "lang_not_available": "La langue `%s` n'est pas disponible",
+                        "lang_set": "Votre langue à été changée pour `%s`"
+                      }
+                    }
+                  }
+                },
+                "buttons": {
+                  "LikeButton": {
+                    "action": {
+                      "AddedToFavorite": "Ajouté aux favoris!",
+                      "alreadyLiked": "Cette musique fais déjà parti de tes favoris!\nTu peux gérer tes favoris en utilisant la commande `/collection`",
+                      "contactDev": "Oups ! Une erreur est survenue, s'il te plaît, contacte les développeurs du bot en indiquant le code suivant\nCODE : %s"
+                    }
+                  },
+                  "UnlikeButton": {
+                    "action": {
+                      "likeRemoved": "Tu a retiré `%s` de tes favoris."
+                    }
+                  }
+                }
+              },
+              "CommandManager": {
+                "handle": {
+                  "checkCmd": {
+                    "limit_reached": "⚠️ **Attends encore \u003ct:%s:R\u003e avant d'utiliser cette fonctionnalité !**"
+                  }
+                },
+                "checkPrime": {
+                  "replyNoPrime": "Le status premium est nécessaire pour utiliser cette fonctionnalité\nVeuillez noter que certaines fonctionnalités sont auusi déblocables en votant régulièrement pour le bot!",
+                  "PrimeButton": "Premium",
+                  "VoteButton": "Voter"
+                },
+                "action": {
+                  "noDjRole": "Vous devez avoir le rôle \u003c@\u0026%s\u003e pour utiliser cette fonctionnalité!"
+                }
+              },
+              "Companion": {
+                "commands": {
+                  "play": {
+                    "name": "play.name",
+                    "description": "play.description"
+                  },
+                  "collection": {
+                    "name": "collection.name",
+                    "description": "collection.description"
+                  },
+                  "my-lang": {
+                    "name": "my-lang.name",
+                    "description": "my-lang.description",
+                    "options": {
+                      "lang": {
+                        "name": "my-lang.options.lang.name",
+                        "description": "my-lang.options.lang.description"
+                      }
+                    }
+                  },
+                  "player-menu": {
+                    "name": "player-menu.name",
+                    "description": "player-menu.description",
+                    "options": {
+                      "enable": {
+                        "name": "player-menu.options.enable.name",
+                        "description": "player-menu.options.enable.description"
+                      },
+                      "channel": {
+                        "name": "player-menu.options.channel.name",
+                        "description": "player-menu.options.channel.description"
+                      }
+                    }
+                  },
+                  "credit": {
+                    "name": "credit.name",
+                    "description": "credit.description"
+                  },
+                  "ping": {
+                    "name": "ping.name",
+                    "description": "ping.description"
+                  },
+                  "support": {
+                    "name": "support.name",
+                    "description": "support.description"
+                  },
+                  "station": {
+                    "name": "station.name",
+                    "description": "station.description",
+                    "options": {
+                      "station": {
+                        "name": "station.options.station.name",
+                        "description": "station.options.station.description"
+                      }
+                    }
+                  },
+                  "24-7": {
+                    "name": "24-7.name",
+                    "description": "24-7.description"
+                  },
+                  "stats": {
+                    "name": "stats.name",
+                    "description": "stats.description"
+                  },
+                  "premium": {
+                    "name": "premium.name",
+                    "description": "premium.description",
+                    "info": {
+                      "name": "premium.info.name",
+                      "description": "premium.info.description"
+                    },
+                    "add-server": {
+                      "name": "premium.add-server.name",
+                      "description": "premium.add-server.description"
+                    },
+                    "remove-server": {
+                      "name": "premium.remove-server.name",
+                      "description": "premium.remove-server.description",
+                      "options": {
+                        "guild": {
+                          "name": "premium.remove-server.options.guild.name",
+                          "description": "premium.remove-server.options.guild.description"
+                        }
+                      }
+                    }
+                  },
+                  "stop": {
+                    "name": "stop.name",
+                    "description": "stop.description"
+                  },
+                  "now-playing": {
+                    "name": "now-playing.name",
+                    "description": "now-playing.description"
+                  },
+                  "vote": {
+                    "name": "vote.name",
+                    "description": "vote.description"
+                  },
+                  "dj-role": {
+                    "name": "dj-role.name",
+                    "description": "dj-role.description",
+                    "remove": {
+                      "name": "dj-role.remove.name",
+                      "description": "dj-role.remove.description"
+                    },
+                    "set": {
+                      "name": "dj-role.set.name",
+                      "description": "dj-role.set.description",
+                      "options": {
+                        "role": {
+                          "name": "dj-role.set.options.role.name",
+                          "description": "dj-role.set.options.role.description"
+                        }
+                      }
+                    },
+                    "info": {
+                      "name": "dj-role.info.name",
+                      "description": "dj-role.info.description"
+                    }
+                  },
+                  "help": {
+                    "name": "help.name",
+                    "description": "help.description",
+                    "options": {
+                      "command": {
+                        "name": "help.options.command.name",
+                        "description": "help.options.command.description"
+                      }
+                    }
+                  },
+                  "print-info": {
+                    "name": "print-info.name",
+                    "description": "print-info.description"
+                  },
+                  "dev-play": {
+                    "name": "dev-play.name",
+                    "description": "dev-play.description",
+                    "options": {
+                      "playlist": {
+                        "name": "dev-play.options.playlist.name",
+                        "description": "dev-play.options.playlist.description"
+                      }
+                    }
+                  },
+                  "dev-now-playing": {
+                    "name": "dev-now-playing.name",
+                    "description": "dev-now-playing.description"
+                  },
+                  "dev-stop": {
+                    "name": "dev-stop.name",
+                    "description": "dev-stop.description"
+                  }
+                }
+              }
+            },
+            "PlayerMenuUtils": {
+              "generateEmbed": {
+                "noPlaying": "Actuellement déconnecté",
+                "nowPlaying": "Lecture de la radio `%s` dans le salon %s",
+                "embedTitle": "%s - Panneau de contrôle",
+                "embedDescription": "`Play` - %1$s rejoint ton salon vocal VC\n`Stop` - Déconnecte %1$s de ton salon vocal VC\n`24/7` - Active ou désactive le mode 24/7 ⭐\n`❤️` - Ajoute la musique actuelle dans ta bibliothèque\n\n\u003ca:cdEmote:801119395182411816\u003e **%2$s**",
+                "titleFieldName": "Nom :",
+                "endFieldName": "Se termine dans :",
+                "artistFieldName": "Artiste :"
+              },
+              "generateNonPrimeEmbed": {
+                "embedTitle": "%s - Panneau de contrôle",
+                "embedDescription": "Le panneau de contrôle est une fonctionnalité réservée aux serveurs avec un status premium!"
+              },
+              "updateMenu": {
+                "PrimeButton": "Premium"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "config": {
+    "lang": {
+      "names": {
+        "en-US": "en-US",
+        "fr-FR": "fr-FR"
+      }
+    }
+  }
+}
