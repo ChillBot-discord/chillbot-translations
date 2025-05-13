@@ -215,154 +215,154 @@
               "Companion": {
                 "commands": {
                   "play": {
-                    "name": "play.name",
-                    "description": "play.description"
+                    "name": "play",
+                    "description": "Starts playing music in a voice channel"
                   },
                   "collection": {
-                    "name": "collection.name",
-                    "description": "collection.description"
+                    "name": "collection",
+                    "description": "Shows the liked music collection"
                   },
                   "my-lang": {
-                    "name": "my-lang.name",
-                    "description": "my-lang.description",
+                    "name": "my-lang",
+                    "description": "Change the language in which the bot responds to you",
                     "options": {
                       "lang": {
-                        "name": "my-lang.options.lang.name",
-                        "description": "my-lang.options.lang.description"
+                        "name": "lang",
+                        "description": "Language in which the bot should respond to you"
                       }
                     }
                   },
                   "player-menu": {
-                    "name": "player-menu.name",
-                    "description": "player-menu.description",
+                    "name": "player-menu",
+                    "description": "show player menu",
                     "options": {
                       "enable": {
-                        "name": "player-menu.options.enable.name",
-                        "description": "player-menu.options.enable.description"
+                        "name": "enable",
+                        "description": "enable or disable player menu"
                       },
                       "channel": {
-                        "name": "player-menu.options.channel.name",
-                        "description": "player-menu.options.channel.description"
+                        "name": "channel",
+                        "description": "Channel in which the menu was sent"
                       }
                     }
                   },
                   "credit": {
-                    "name": "credit.name",
-                    "description": "credit.description"
+                    "name": "credit",
+                    "description": "Shows information about all the contributors"
                   },
                   "ping": {
-                    "name": "ping.name",
-                    "description": "ping.description"
+                    "name": "ping",
+                    "description": "Displays all the latencies"
                   },
                   "support": {
-                    "name": "support.name",
-                    "description": "support.description"
+                    "name": "support",
+                    "description": "Gives the support server link of the bot"
                   },
                   "station": {
-                    "name": "station.name",
-                    "description": "station.description",
+                    "name": "station",
+                    "description": "change the bot station",
                     "options": {
                       "station": {
-                        "name": "station.options.station.name",
-                        "description": "station.options.station.description"
+                        "name": "station",
+                        "description": "Set the bot station"
                       }
                     }
                   },
                   "24-7": {
-                    "name": "24-7.name",
-                    "description": "24-7.description"
+                    "name": "24-7",
+                    "description": "The bot will stay connected to the voice channel all the time"
                   },
                   "stats": {
-                    "name": "stats.name",
-                    "description": "stats.description"
+                    "name": "stats",
+                    "description": "Shows statistics of the bot"
                   },
                   "premium": {
-                    "name": "premium.name",
-                    "description": "premium.description",
+                    "name": "premium",
+                    "description": "premium commands",
                     "info": {
-                      "name": "premium.info.name",
-                      "description": "premium.info.description"
+                      "name": "info",
+                      "description": "List of servers on which premium is active"
                     },
                     "add-server": {
-                      "name": "premium.add-server.name",
-                      "description": "premium.add-server.description"
+                      "name": "add-server",
+                      "description": "Activated premium on this server"
                     },
                     "remove-server": {
-                      "name": "premium.remove-server.name",
-                      "description": "premium.remove-server.description",
+                      "name": "remove-server",
+                      "description": "Disabled premium on the selected server",
                       "options": {
                         "guild": {
-                          "name": "premium.remove-server.options.guild.name",
-                          "description": "premium.remove-server.options.guild.description"
+                          "name": "guild",
+                          "description": "name or identifier of the server to be disabled (select from list)"
                         }
                       }
                     }
                   },
                   "stop": {
-                    "name": "stop.name",
-                    "description": "stop.description"
+                    "name": "stop",
+                    "description": "Stop the radio stream"
                   },
                   "now-playing": {
-                    "name": "now-playing.name",
-                    "description": "now-playing.description"
+                    "name": "now-playing",
+                    "description": "Shows the music currently playing"
                   },
                   "vote": {
-                    "name": "vote.name",
-                    "description": "vote.description"
+                    "name": "vote",
+                    "description": "Gives the bot's top.gg vote link"
                   },
                   "dj-role": {
-                    "name": "dj-role.name",
-                    "description": "dj-role.description",
+                    "name": "dj-role",
+                    "description": "Define a DJ role on the server",
                     "remove": {
-                      "name": "dj-role.remove.name",
-                      "description": "dj-role.remove.description"
+                      "name": "remove",
+                      "description": "Disabled the DJ role on the server"
                     },
                     "set": {
-                      "name": "dj-role.set.name",
-                      "description": "dj-role.set.description",
+                      "name": "set",
+                      "description": "Set the DJ role on the server",
                       "options": {
                         "role": {
-                          "name": "dj-role.set.options.role.name",
-                          "description": "dj-role.set.options.role.description"
+                          "name": "role",
+                          "description": "The role to add as a DJ role"
                         }
                       }
                     },
                     "info": {
-                      "name": "dj-role.info.name",
-                      "description": "dj-role.info.description"
+                      "name": "info",
+                      "description": "Shows the current configuration of the DJ role"
                     }
                   },
                   "help": {
-                    "name": "help.name",
-                    "description": "help.description",
+                    "name": "help",
+                    "description": "Shows all the slash commands available",
                     "options": {
                       "command": {
-                        "name": "help.options.command.name",
-                        "description": "help.options.command.description"
+                        "name": "command",
+                        "description": "The command to get help for"
                       }
                     }
                   },
                   "print-info": {
-                    "name": "print-info.name",
-                    "description": "print-info.description"
+                    "name": "print-info",
+                    "description": "DEBUG COMMAND"
                   },
                   "dev-play": {
-                    "name": "dev-play.name",
-                    "description": "dev-play.description",
+                    "name": "dev-play",
+                    "description": "DEBUG COMMAND",
                     "options": {
                       "playlist": {
-                        "name": "dev-play.options.playlist.name",
-                        "description": "dev-play.options.playlist.description"
+                        "name": "playlist",
+                        "description": "DEBUG COMMAND"
                       }
                     }
                   },
                   "dev-now-playing": {
-                    "name": "dev-now-playing.name",
-                    "description": "dev-now-playing.description"
+                    "name": "dev-now-playing",
+                    "description": "DEBUG COMMAND"
                   },
                   "dev-stop": {
-                    "name": "dev-stop.name",
-                    "description": "dev-stop.description"
+                    "name": "dev-stop",
+                    "description": "DEBUG COMMAND"
                   }
                 }
               }
@@ -393,7 +393,8 @@
   "config": {
     "lang": {
       "names": {
-        "en-US": "en-US"
+        "en-US": "English"
+        "fr-FR": "French"
       }
     }
   }
