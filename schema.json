@@ -1,3 +1,5 @@
+
+
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
@@ -1576,10 +1578,14 @@
               "properties": {
                 "en-US": {
                   "type": "string"
+                },
+                "fr-FR": {
+                  "type": "string"
                 }
               },
               "required": [
-                "en-US"
+                "en-US",
+                "fr-FR"
               ]
             }
           },
@@ -1598,3 +1604,4 @@
     "config"
   ]
 }
+
